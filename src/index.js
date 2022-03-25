@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Downloadpage from './components/downloadpage';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <Downloadpage/>,
+  <React.StrictMode>
+     <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
